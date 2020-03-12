@@ -57,7 +57,16 @@ body {
     border: 1px solid #2a69a6;
 }
 
-.icon:hover {
+.imgbg:hover .icon {
+    fill: #2a69a6;
+}
+
+/* .imgbg:hover + .icon {
     fill: #2a69a6;
     z-index: 1;
-}
+} */
+
+/* .icon:hover {
+    fill: #2a69a6;
+    z-index: 1;
+} */
