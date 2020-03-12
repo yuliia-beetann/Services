@@ -34,6 +34,15 @@ body {
     transform: translate(-50%,-50%);
 }
 
+.imgbg:hover {
+    background-color: #ffffff;
+    border: 1px solid #2a69a6;
+}
+
+.imgbg:hover .icon {
+    fill: #2a69a6;
+}
+
 .text {
     text-align: center;
 }
@@ -52,14 +61,7 @@ body {
     line-height: 1.5em;
 }
 
-.imgbg:hover {
-    background-color: #ffffff;
-    border: 1px solid #2a69a6;
-}
 
-.imgbg:hover .icon {
-    fill: #2a69a6;
-}
 
 /* .imgbg:hover + .icon {
     fill: #2a69a6;
